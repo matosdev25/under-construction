@@ -7,7 +7,7 @@ import Badge from '@/components/Badge';
 import Button from '@/components/Button';
 import { translations, detectLanguage, getWhatsAppLink } from '@/lib/translations';
 
-const MAIN_SITE = 'https://matosdev.es';
+const MAIN_SITE = 'https://matosdev25.github.io/portfolio/';
 
 export default function UnderConstruction() {
   const [lang, setLang] = useState('es');

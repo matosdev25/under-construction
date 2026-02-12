@@ -9,7 +9,7 @@ export default function Navbar({ lang, onLanguageChange, translations, whatsappL
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-4">
         {/* Logo */}
         <a 
-          href="https://matosdev.es" 
+          href="https://matosdev25.github.io/portfolio/" 
           className="text-white font-bold text-lg sm:text-xl tracking-wider hover:text-rose-400 transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2 focus-visible:ring-offset-black rounded"
           aria-label="MatosDev - Ir al sitio principal / Go to main site"
         >
