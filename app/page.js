@@ -31,12 +31,12 @@ export default function UnderConstruction() {
           </div>
           
           {/* Title */}
-          <h1 className="mt-8 text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight leading-none opacity-0 animate-fade-in-up animation-delay-200">
+          <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight leading-none opacity-0 animate-fade-in-up animation-delay-200">
             En Construcción
           </h1>
           
           {/* Subtitle */}
-          <p className="mt-4 text-lg sm:text-xl md:text-2xl font-bold text-rose-500 uppercase tracking-wide opacity-0 animate-fade-in-up animation-delay-300">
+          <p className="mt-4 text-base sm:text-xl md:text-2xl font-bold text-rose-500 uppercase tracking-wide opacity-0 animate-fade-in-up animation-delay-300">
             Estamos trabajando en este sitio
           </p>
           
