@@ -1,12 +1,23 @@
 /** @type {import('next').NextConfig} */
+
+const repo = "under-construction";
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-  output: "export",
+  // GitHub Pages necesita export estático
+  output: "export", // genera /out al hacer `next build` [web:111]
+
+  // Project Pages publica en /under-construction/
+  basePath: isProd ? `/${repo}` : "", // [web:187]
+  assetPrefix: isProd ? `/${repo}/` : "", // trailing slash recomendado [web:118][web:121]
+
+  // Requerido si usas next/image con static export
   images: {
     unoptimized: true,
-  },
+  }, // [web:195]
 
   experimental: {
-    // Remove if not using Server Components
+    // Si no usas MongoDB en Server Components, puedes quitarlo
     serverComponentsExternalPackages: ["mongodb"],
   },
 
